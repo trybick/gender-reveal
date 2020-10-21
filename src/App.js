@@ -1,5 +1,5 @@
 import React from "react";
-import * as graphql from "../mlp/tmp.js";
+import * as graphql from "./mlp/tmp.js";
 import loadingGif from "./loading.gif";
 import "./styles.css";
 
