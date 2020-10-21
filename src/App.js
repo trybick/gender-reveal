@@ -24,6 +24,8 @@ export default function App() {
     }, graphql.t);
   };
 
+  console.log("no cheating ;)");
+
   return (
     <div className="wrapper">
       {!isRevealed && !loading && (
