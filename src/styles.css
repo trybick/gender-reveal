@@ -1,0 +1,47 @@
+.wrapper {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.intro {
+  font-size: 26px;
+  max-width: 300px;
+  margin: 0 auto 50px;
+}
+
+.reveal-btn {
+  background-color: yellow;
+  color: green;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.loading {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.karate {
+  margin-top: 30px;
+}
+
+.revealed {
+  font-size: 50px;
+}
+
+.for-real {
+  font-size: 20px;
+  margin-top: 120px;
+}
+
+.for-real button {
+  margin-top: 15px;
+}
+
+.final {
+  font-size: 80px;
+  max-width: 600px;
+  margin: 0 auto;
+}
