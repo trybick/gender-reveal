@@ -43,7 +43,7 @@ export default function App() {
       {loading && !isRevealed && (
         <div className="loading">
           (building suspense)
-          <div>Countdown: {counter}</div>
+          <div className="countdown">{counter}</div>
           <img className="karate" src={loadingGif} alt="loading..." />
         </div>
       )}
