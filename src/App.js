@@ -1,5 +1,5 @@
 import React from "react";
-import * as graphql from "../mlp/tmp.js";
+import * as graphql from "./mlp/tmp.js";
 import karate from "./karate.gif";
 import "./styles.css";
 
@@ -60,7 +60,7 @@ export default function App() {
             Click again -
             <br />
             <button className="reveal-btn" onClick={() => setIsFixed(true)}>
-              For real though {" "}
+              For real though{" "}
             </button>
           </div>
         </div>
