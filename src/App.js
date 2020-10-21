@@ -1,6 +1,6 @@
 import React from "react";
-import * as graphql from "./mlp/tmp.js";
-import karate from "./karate.gif";
+import * as graphql from "../mlp/tmp.js";
+import loadingGif from "./loading.gif";
 import "./styles.css";
 
 export default function App() {
@@ -42,7 +42,7 @@ export default function App() {
         <div className="loading">
           (building suspense)
           <div>Countdown: {counter}</div>
-          <img className="karate" src={karate} alt="loading..." />
+          <img className="karate" src={loadingGif} alt="loading..." />
         </div>
       )}
 
