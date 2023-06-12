@@ -51,8 +51,6 @@ export default function App() {
       {isRevealed && !isFixed && (
         <div className="revealed">
           {graphql.r}
-          <span>{graphql.u}</span>
-
           <div className="for-real">
             Oops looks like a bug{" "}
             <span aria-label="facepalm" role="img">
